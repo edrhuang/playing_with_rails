@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>List of Movies</title>
+	<style type="text/css">
+		#list{
+			display: inline-block;
+
+		}
+
+		.title{
+			width: 100px;
+			display: inline-block;
+
+		}
+
+		.year {
+			width: 100px;
+			display: inline-block;
+
+		}
+
+		.genre{
+			width: 100px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<section id="list">
+		<h1>List of Movies</h1>
+		<div class="title">
+			<h2>Titles</h2>
+			<%= @movie.title %>
+		</div>
+		<div class="year">
+			<h2>Year</h2>
+			<%= @movie.year %>
+		</div>
+		<div class="genre">
+			<h2>Genre</h2>
+			<%= @movie.genre %>
+		</div>
+		
+	</section>
+
+</body>
+</html>
+
+
+
+
